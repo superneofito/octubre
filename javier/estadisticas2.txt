@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mis Estadísticas</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        /* Estilos básicos para la gráfica */
+        .grafica {
+            display: flex;
+            gap: 10px;
+            align-items: flex-end;
+            height: 150px;
+            margin-top: 20px;
+        }
+        .barra {
+            width: 50px;
+            background-color: #3498db;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+        }
+        .manuales { height: 60px; }
+        .preguntas { height: 100px; }
+        .respuestas { height: 140px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mis Estadísticas</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="manuales.html">Mis Manuales</a>
+            <a href="pregunta.html">Hacer una pregunta</a>
+        </nav>
+    </header>
+
+    <main>
+       
+
+
+ <section class="acciones">
+            <h2>Tu progreso</h2>
+            <ul>
+                <li>Manual completado: 3</li>
+                <li>Preguntas realizadas: 5</li>
+                <li>Respuestas aportadas: 12</li>
+            </ul>
+
+            <!-- Tabla comparativa -->
+            <h3>Resumen comparativo</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Actividad</th>
+                        <th>Cantidad</th>
+                        <th>Última actualización</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Manuales completados</td>
+                        <td>3</td>
+                        <td>10/10/2025</td>
+                    </tr>
+                    <tr>
+                        <td>Preguntas realizadas</td>
+                        <td>5</td>
+                        <td>09/10/2025</td>
+                    </tr>
+                    <tr>
+                        <td>Respuestas aportadas</td>
+                        <td>12</td>
+                        <td>08/10/2025</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Gráfico de barras básico -->
+            <h3>Visualización de tu actividad</h3>
+            <div class="grafica">
+                <div class="barra manuales">3</div>
+                <div class="barra preguntas">5</div>
+                <div class="barra respuestas">12</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Plataforma educativa | Diseñado por Javier</p>
+        <nav>
+            <a href="registro.html">Registrarse</a> |
+            <a href="login.html">Iniciar sesión</a> |
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html> <!-- Define el tipo de documento como HTML5 -->
+<html lang="es"> <!-- Comienza el documento HTML y especifica el idioma como español -->
+<head> <!-- Sección de metadatos del documento -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <title>Plataforma Educativa</title> <!-- Título que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="estilos.css"> <!-- Enlace al archivo CSS externo para estilos -->
+</head>
+<body> <!-- Comienza el cuerpo visible de la página -->
+
+    <!-- Encabezado principal con logo y navegación -->
+    <header>
+        <h1>Mi Plataforma Educativa</h1> <!-- Título principal del sitio -->
+        <nav> <!-- Menú de navegación -->
+            <a href="registro.html">Registro</a> <!-- Enlace a la página de registro -->
+            <a href="login.html">Login</a> <!-- Enlace a la página de inicio de sesión -->
+        </nav>
+    </header>
+
+    <!-- Banner de bienvenida con mensaje motivador -->
+    <section class="banner">
+        <h2>Aprende desarrollo y diseño — enseñar es la mejor forma de aprender</h2> <!-- Mensaje inspirador -->
+        <button onclick="location.href='registro.html'">COMENZAR</button> <!-- Botón que redirige al registro -->
+    </section>
+
+    <!-- Sección de características -->
+    <section class="caracteristicas">
+        <div class="item"> <!-- Primer bloque de característica -->
+            <h3>De código a diseño</h3>
+            <p>Desde lo básico hasta lo avanzado, paso a paso.</p>
+        </div>
+        <div class="item"> <!-- Segundo bloque -->
+            <h3>Conocimiento libre</h3>
+            <p>Acceso gratuito para todos los niveles.</p>
+        </div>
+        <div class="item"> <!-- Tercer bloque -->
+            <h3>Aprende ayudando</h3>
+            <p>Participa en la comunidad y mejora tus habilidades.</p>
+        </div>
+    </section>
+
+    <!-- Sección de acciones -->
+    <section class="acciones">
+        <h2>¿Qué quieres hacer hoy?</h2> <!-- Pregunta motivadora -->
+        <ul> <!-- Lista de acciones disponibles -->
+            <li><a href="manuales.html">Ver mis manuales</a></li>
+            <li><a href="pregunta.html">Hacer una pregunta</a></li>
+            <li><a href="respuestas.html">Ayudar con mis respuestas</a></li>
+            <li><a href="voces.html">Ver todas las voces</a></li>
+            <li><a href="estadisticas.html">Administrar mis estadísticas</a></li>
+        </ul>
+    </section>
+
+    <!-- Sección de manuales populares -->
+    <section class="manuales-populares">
+        <h2>Manuales populares</h2>
+        <div class="grid-manuales"> <!-- Contenedor en forma de cuadrícula -->
+            <div class="manual frontend"> <!-- Manual de frontend -->
+                <h3>Manual de JavaScript</h3>
+                <p>Categoría: Frontend</p>
+            </div>
+            <div class="manual backend"> <!-- Manual de backend -->
+                <h3>Manual de PHP</h3>
+                <p>Categoría: Backend</p>
+            </div>
+            <div class="manual iniciacion"> <!-- Manual de iniciación -->
+                <h3>Manual de iniciación a la programación</h3>
+                <p>Categoría: Iniciación</p>
+            </div>
+        </div>
+        <a href="manuales.html" class="boton">Explora los 229 manuales</a> <!-- Botón para ver todos los manuales -->
+    </section>
+
+    <!-- Sección de actualizaciones destacadas -->
+    <section class="actualizaciones">
+        <h2>Actualizaciones destacadas</h2>
+        <article class="destacado"> <!-- Artículo destacado -->
+            <h3>Introducción práctica a p5.js</h3>
+            <p>Explora cómo usar Processing en la web con p5.js para crear animaciones e interacciones.</p>
+            <p><strong>Fecha:</strong> 08/09/2025</p>
+            <a href="p5js.html">Leer más</a> <!-- Enlace al artículo completo -->
+        </article>
+    </section>
+
+    <!-- Sección de blog técnico -->
+    <section class="blog-tecnico">
+        <h2>Últimos artículos sobre TypeScript</h2>
+        <article>
+            <h3>Alias de tipos en TypeScript</h3>
+            <p>Cómo definir type aliases para reutilizar y hacer más expresivas las declaraciones de tipos.</p>
+            <p><strong>Fecha:</strong> 07/08/2025</p>
+            <a href="alias-typescript.html">Leer más</a>
+        </article>
+        <article>
+            <h3>Clases en TypeScript</h3>
+            <p>Cómo crear clases en TypeScript, ideal para quienes ya conocen POO y JavaScript.</p>
+            <p><strong>Fecha:</strong> 06/08/2025</p>
+            <a href="clases-typescript.html">Leer más</a>
+        </article>
+    </section>
+
+    <!-- Sección de manejo de errores -->
+    <section class="errores">
+        <h2>Manejo de errores en programación</h2>
+        <article>
+            <h3>Cómo lanzar excepciones en PHP</h3>
+            <p>Aprende a usar la instrucción <code>throw</code> para manejar errores en PHP.</p>
+            <p><strong>Fecha:</strong> 16/10/2015</p>
+            <a href="excepciones-php.html">Leer más</a>
+        </article>
+        <article>
+            <h3>Lanzar errores en JavaScript con throw</h3>
+            <p>Descubre cómo lanzar errores personalizados en JavaScript usando <code>throw</code>.</p>
+            <p><strong>Fecha:</strong> 03/11/2015</p>
+            <a href="errores-js.html">Leer más</a>
+        </article>
+    </section>
+
+    <!-- Sección de artículo con imagen lateral -->
+    <section class="articulo-lateral">
+        <div class="contenido"> <!-- Texto del artículo -->
+            <h3>Alias de tipos en TypeScript</h3>
+            <p>Cómo definir <em>type aliases</em> para reutilizar y hacer más expresivas las declaraciones de tipos en el lenguaje.</p>
+            <p><strong>Fecha:</strong> 07/08/2025</p>
+            <a href="alias-typescript.html">Leer más</a>
+        </div>
+        <div class="imagen"> <!-- Imagen relacionada -->
+            <img src="ts-alias.png" alt="Alias de tipos TypeScript"> <!-- Imagen ilustrativa -->
+        </div>
+    </section>
+
+    <!-- Sección de comunidad -->
+    <section class="comunidad">
+        <h2>¿Algo de tiempo para dedicar a la comunidad?</h2>
+        <p>Contesta alguna de estas preguntas populares y ayuda a otros a aprender.</p>
+        <ul>
+            <li><a href="faq.html#php-net">Importar una clase PHP o .Net en Visual Studio Code</a></li>
+            <li><a href="faq.html#react-assets">Acceder a los assets en React desde una carpeta</a></li>
+            <li><a href="faq.html#android-transfer">Descargar fotos sin Android File Transfer en MacOS</a></li>
+        </ul>
+    </section>
+
+    <!-- Pie de página educativo -->
+    <footer class="footer">
+        <div class="footer-contenido"> <!-- Contenido principal del pie -->
+            <div class="footer-columna">
+                <h4>Aprender</h4>
+                <ul>
+                    <li><a href="vocabulario.html">Vocabulario</a></li>
+                    <li><a href="temas.html">Temas</a></li>
+                    <li><a href="descargas.html">Gestionar descargadas</a></li>
+                    <li><a href="creativo.html">Creativo</a></li>
+                </ul>
+            </div>
+            <div class="footer-columna">
+                <h4>Comunidad</h4>
+                <ul>
+                    <li><a href="faq.html">Preguntas y respuestas</a></li>
+                    <li><a href="pregunta.html">Hacer una pregunta</a></li>
+                    <li><a href="discusiones.html">Discusiones</a></li>
+                    <li><a href="experiencia.html">Experiencia</a></li>
+                </ul>
+            </div>
+            <div class="footer-redes">
+                <h4>Redes sociales</h4>
+                <div class="redes-iconos">
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://youtube.com" target="_blank">YouTube</a

@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hacer una Pregunta</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Hacer una Pregunta</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="manuales.html">Mis Manuales</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección del formulario de preguntas -->
+        <section class="acciones">
+            <h2>¿En qué necesitas ayuda?</h2>
+            <form>
+                <label for="tema">Tema:</label>
+                <input type="text" id="tema" name="tema" required>
+
+                <label for="pregunta">Pregunta:</label>
+                <textarea id="pregunta" name="pregunta" rows="5" required></textarea>
+
+                <button type="submit">Enviar pregunta</button>
+            </form>
+        </section>
+
+        <!-- Sección de Preguntas Frecuentes -->
+        <section class="faq">
+            <h2>Preguntas Frecuentes</h2>
+            <details>
+                <summary>¿Cómo puedo acceder a los manuales?</summary>
+                <p>Puedes acceder a los manuales desde la sección <a href="manuales.html">Mis Manuales</a> en el menú principal.</p>
+            </details>
+
+            <details>
+                <summary>¿Necesito registrarme para hacer una pregunta?</summary>
+                <p>Sí, es necesario tener una cuenta para enviar preguntas. Puedes registrarte en la página de <a href="registro.html">Registro</a>.</p>
+            </details>
+
+            <details>
+                <summary>¿Cuánto tiempo tardan en responder mi pregunta?</summary>
+                <p>Generalmente respondemos en un plazo de 24 a 48 horas hábiles.</p>
+            </details>
+
+            <details>
+                <summary>¿Puedo editar mi pregunta después de enviarla?</summary>
+                <p>No directamente, pero puedes enviar una nueva pregunta aclarando o ampliando la anterior.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Plataforma educativa | Diseñado por …..r</p>
+        <nav>
+            <a href="registro.html">Registrarse</a> |
+            <a href="login.html">Iniciar sesión</a> |
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </footer>
+</body>
+</html>
